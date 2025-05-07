@@ -3,16 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>СпилМастер - Профессиональный спил деревьев</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Компания по спилу деревьев. Профессиональные услуги по спилу деревьев и удалению.">
+    <title>Спил деревьев - Услуги</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Заголовок и краткое описание -->
     <header>
-        <div class="logo">
-            <h1>СпилМастер</h1>
+        <div class="container">
+            <h1>Спил деревьев</h1>
+            <p>Профессиональный спил деревьев, удаление, обрезка и другие услуги. Быстро, безопасно и качественно.</p>
         </div>
-       
     </header>
+
+    <!-- Стоимость услуг -->
+    <section id="services" class="container">
+        <h2>Стоимость работ</h2>
+        <div class="service">
+            <h3>Работа 1: Спил дерева</h3>
+            <p>Обрезка или полный спил дерева в пределах участка.</p>
+            <p><strong>Цена: 3000 руб.</strong></p>
+        </div>
+        <div class="service">
+            <h3>Работа 2: Удаление пней</h3>
+            <p>Удаление пней с участка с использованием профессионального оборудования.</p>
+            <p><strong>Цена: 1500 руб.</strong></p>
+        </div>
+    </section>
+
+    <!-- Примеры работ -->
+    <section id="works" class="container">
+        <h2>Примеры работ</h2>
+        <div class="works-gallery">
+            <div class="work-item">
+                <img src="image.jpg" alt="Работа 1">
+                <p>Спил большого дерева на даче</p>
+            </div>
+            <div class="work-item">
+                <img src="image.jpg" alt="Работа 2">
+                <p>Обрезка дерева на частном участке</p>
+            </div>
+            <div class="work-item">
+                <img src="image.jpg" alt="Работа 3">
+                <p>Удаление пня после спила</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контактная информация -->
+    <section id="contact" class="container">
+        <h2>Контакты</h2>
+        <p>Если у вас есть вопросы или хотите заказать услугу, свяжитесь с нами:</p>
+        <p>Email: <a href="mailto:info@treecutting.ru">info@treecutting.ru</a></p>
+        <p>Телефон: +7 (123) 456-78-90</p>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <p>&copy; 2025 Спил деревьев. Все права защищены.</p>
+    </footer>
 
 </body>
 </html>
