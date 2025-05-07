@@ -11,14 +11,7 @@
         <div class="logo">
             <h1>СпилМастер</h1>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Главная</a></li>
-                <li><a href="services.html">Услуги</a></li>
-                <li><a href="portfolio.html">Наши работы</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-        </nav>
+       
     </header>
 
 </body>
